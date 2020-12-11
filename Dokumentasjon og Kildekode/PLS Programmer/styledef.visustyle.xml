@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualizationStyle>
+	<General baseStyle="FlatCommon, 3.5.14.0 (3S-Smart Software Solutions GmbH)">
+		<Strings>
+			<Language lang="de" />
+			<Language lang="en" />
+		</Strings>
+		<StyleInfo>
+			<Name>WagoStyle46</Name>
+			<Company>Bachelor_46</Company>
+			<Version>1.0.0.0</Version>
+		</StyleInfo>
+	</General>
+	<StyleDefinition>
+		<Fonts />
+		<Colors>
+			<!--Barelement, Texteditor, DateRangeSelector-->
+			<Color name="Element-Background-Color">0xFFF9F9F9</Color>
+			<Color name="Element-Bar-ScaleColor">0xFF241E24</Color>
+			<Color name="Element-Bar-GraphColor">0xFF007592</Color>
+			<Color name="Element-Button-FontColor">0xFFF9F9F9</Color>
+			<Color name="Element-Button-PressedColor" attributes="hide">0xFFE2E3E3</Color>
+			<Color name="Element-Button-PressedFontColor" attributes="hide">0xFF007592</Color>
+			<Color name="Element-Alarmtable-SelectionFontColor">0xFF241E24</Color>
+			<Color name="Element-Alarmtable-SelectionColor">0xFF007592</Color>
+			<Color name="Element-Clock-CenterPoint-Color">0xFF007592</Color>
+			<Color name="Element-Clock-Hands-HourHandColor">0xFF007592</Color>
+			<Color name="Element-Clock-Hands-MinuteHandColor">0xFF007592</Color>
+			<Color name="Element-Clock-Hands-SecondsHandColor">0xFF007592</Color>
+			<Color name="Element-Clock-Lines-Color">0xFFE2E3E3</Color>
+			<Color name="Element-Clock-Numerics-FontColor">0xFFE2E3E3</Color>
+			<Color name="Element-ComboArray-Box-Color" attributes="hide">0xFF241E24</Color>
+			<Color name="Element-ComboArray-Grid-Color" attributes="hide">0xFFF9F9F9</Color>
+			<Color name="Element-ComboArray-List-FirstColor" attributes="hide">0xFFE2E3E3</Color>
+			<!-- ComboBox-Array, Selektionsfarbe -->
+			<Color name="Element-ComboArray-Selection-Color" attributes="hide">0xFF007592</Color>
+			<Color name="Element-ComboBoxInteger-Box-Color" attributes="hide">0xFF241E24</Color>
+			<Color name="Element-ComboBoxInteger-List-FirstColor" attributes="hide">0xFFE2E3E3</Color>
+			<Color name="Element-ComboBoxInteger-Selection-Color" attributes="hide">0xFF007592</Color>
+			<Color name="Element-Control-ArrowColor">0xFFE2E3E3</Color>
+			<Color name="Element-Control-Color">0xFF241E24</Color>
+			<!--Can be used as Element-Control-HighlightColor. Matching color to the blue lamp, meter, or poti.-->
+			<Color name="Element-Control-Color_Blue">0xFF007592</Color>
+			<!--Highlightcolor, used in this style. Used in different elements.-->
+			<Color name="Element-Control-HighlightColor" attributes="hide">0xFF007592</Color>
+			<Color name="Element-DatePicker-Header-ArrowColor">0xFFF9F9F9</Color>
+			<Color name="Element-DatePicker-Header-ArrowPressedColor">0xFF007592</Color>
+			<Color name="Element-DatePicker-Header-BackgroundColor">0xFF241E24</Color>
+			<Color name="Element-DatePicker-Header-FontColor">0xFFF9F9F9</Color>
+			<!-- Weiss: Textfield, Texteditor-->
+			<Color name="Element-Fill-Color">0xFFF9F9F9</Color>
+			<Color name="Element-GroupBox-FrameColor" attributes="hide">0xFF241E24</Color>
+			<Color name="Element-Histogram-Background-FirstColor" attributes="hide">0xFFE2E3E3</Color>
+			<Color name="Element-Meter-ArrowColor">0xFFF9F9F9</Color>
+			<Color name="Element-Meter-LabelFontColor">0xFFBEBEBE</Color>
+			<Color name="Element-Meter-ScaleColor">0xFFBEBEBE</Color>
+			<Color name="Element-Potentiometer-LabelFontColor">0xFF241E24</Color>
+			<Color name="Element-Potentiometer-ScaleColor">0xFF241E24</Color>
+			<!--Also used for the marker in the scrolling knob.-->
+			<Color name="Element-Scrollbar-BackgroundClickColor" attributes="hide">0xFFE2E3E3</Color>
+			<!--Also used for the arrows-->
+			<Color name="Element-Scrollbar-ScrollAreaColor" attributes="hide">0xFF241E24</Color>
+			<Color name="Element-Scrollbar-KnobColor" attributes="hide">0xFF241E24</Color>
+			<!-- Texteditor: Selektionsfarbe für Elemente, die Selektion unterstützen -->
+			<Color name="Element-Selection-Background-Color" attributes="hide">0xFF007592</Color>
+			<!-- Eine zu 'Element-Selection-Background-Color' passende Schriftfarbe -->
+			<Color name="Element-Selection-Font-Color" attributes="hide">0xFF241E24</Color>
+			<Color name="Element-Slider-ScaleColor" attributes="hide">0xFFBEBEBE</Color>
+			<Color name="Element-Table-ColumnHeader-Color" attributes="hide">0xFF241E24</Color>
+			<Color name="Element-Table-Grid-Color" attributes="hide">0xFFF9F9F9</Color>
+			<Color name="Element-Table-Rows-FirstColor" attributes="hide">0xFFF9F9F9</Color>
+			<Color name="Element-Table-SelectionColor">0xFF007592</Color>
+			<Color name="Element-Table-SelectionFontColor">0xFF241E24</Color>
+			<Color name="Element-Trace-Background-FirstColor" attributes="hide">0xFFE2E3E3</Color>
+			<Color name="Element-Trend-Background-FirstColor" attributes="hide">0xFFE2E3E3</Color>
+			<!--Normally same color than Progressbar-BackgroundColor-->
+			<Color name="Element-XYChart-Axis-Background-Color">0xFF241E24</Color>
+			<!--Normally same color than Font-Default-Color-->
+			<Color name="Element-XYChart-Axis-Label-Color">0xFFF9F9F9</Color>
+			<Color name="Element-XYChart-Background-FirstColor" attributes="hide">0xFFE2E3E3</Color>
+			<!--Normally same color than Progressbar-Color-->
+			<Color name="Element-XYChart-Main-CursorColor">0xFF007592</Color>
+			<!--Normally same color than Progressbar-ColorDark-->
+			<Color name="Element-XYChart-Secondary-CursorColor">0xFF007592</Color>
+			<Color name="Element-DatePicker-MainArea-SelectedDay-BackColor">0xFF007592</Color>
+			<Color name="Element-DatePicker-MainArea-SelectedDay-FrameColor">0xFF007592</Color>
+			<Color name="Element-DateTimePicker-Arrow-ArrowPressedColor">0xFF007592</Color>
+			<Color name="Element-DateTimePicker-SelectedCell-BackColor">0xFF007592</Color>
+			<Color name="Element-DateTimePicker-SelectedCell-FrameColor">0xFF007592</Color>
+		</Colors>
+		<Images />
+		<AdditionalStyles>
+			<!-- Styledefinition-->
+			<Value name="Style" type="string">STYLE9_FLAT</Value>
+		</AdditionalStyles>
+	</StyleDefinition>
+</VisualizationStyle>
